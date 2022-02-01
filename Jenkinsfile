@@ -17,7 +17,7 @@ pipeline {
         stage('Terraform init') {           
             steps {
                 sh 'mvn -version'
-                sh 'whoami'
+                sh 'terraform --version'
                 // sh 'echo ${AWS_ACCES_KEY_ID}'
                 // sh 'terraform init -input=false'
             }
