@@ -16,9 +16,9 @@ pipeline {
 
 
     stages {
-        stage('toto') {
-            script {
-               sh 'terraform --version'
+      stage('etst jejfkelf ') {            
+            steps {
+                sh "terraform --version"
             }
         }
 //         stage('checkout') {
