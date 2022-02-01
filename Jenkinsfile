@@ -19,6 +19,7 @@ pipeline {
       stage('etst jejfkelf ') {            
             steps {
                 sh "terraform --version"
+                sh "ls"
             }
         }
 //         stage('checkout') {
