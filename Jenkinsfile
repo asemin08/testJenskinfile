@@ -19,7 +19,7 @@ pipeline {
             steps {
                 sh 'mvn -version'
                 sh 'terraform --version'
-                sh 'echo ${AWS_ACCESS_KEY_ID}'
+                sh 'echo ${AWS_SECRET_ACCESS_KEY}'
                 // sh 'terraform init -input=false'
             }
         }
